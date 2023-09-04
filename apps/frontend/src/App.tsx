@@ -1,5 +1,11 @@
-import { Landing } from "./components/Landing";
+import { Landing } from "./components/Landing/Landing";
+import { Header } from "./components/Landing/Header/Header";
 
 export const App = () => {
-  return <Landing />;
+  return (
+    <>
+      <Header />
+      <Landing />
+    </>
+  );
 };
