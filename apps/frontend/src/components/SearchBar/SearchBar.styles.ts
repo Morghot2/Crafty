@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import TextField from "@mui/material/TextField";
 
 const SearchContainer = styled.section`
-  width: auto;
+  max-width: 500px;
 `;
 const SearchTitle = styled.h1`
   font-size: 2rem;
@@ -11,6 +11,7 @@ const SearchTitle = styled.h1`
 
 const SearchField = styled(TextField)`
   border: 1px solid black;
+  width: 100%;
 `;
 
 export { SearchContainer, SearchTitle, SearchField };
